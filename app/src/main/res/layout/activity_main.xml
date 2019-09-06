@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="174dp" />
+        app:layout_constraintVertical_bias="0.39"
+        tools:layout_editor_absoluteX="134dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -33,5 +34,5 @@
         android:scaleType="center"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/lion"
-        tools:layout_editor_absoluteY="476dp" />
+        tools:layout_editor_absoluteY="487dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
